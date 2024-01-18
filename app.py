@@ -111,7 +111,7 @@ text_widget3.delete(1.0, END)
 Comparison = Button(root, text="compare and display", command=compare_and_display)
 Comparison.pack(side="bottom", pady=10, padx=10)
 
-#pyinstaller --onefile nazwa_pliku.py
+#pyinstaller --onefile app.py
 
 
 
